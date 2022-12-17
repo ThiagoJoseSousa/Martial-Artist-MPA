@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    width:50vw;
+    max-width: 1100px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    text-align: justify;
+}
+
+article img {
+object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    gap: 10px;
+}
+
+#comment-section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#comment-header{
+    display: block;
+    text-align: center;
+}
+
+
+#comments {
+    width: 40vw;
+    background-color: #33202015;
+}

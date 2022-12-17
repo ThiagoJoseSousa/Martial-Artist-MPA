@@ -1,0 +1,16 @@
+{
+  "name": "art-gallery-mpa",
+  "version": "1.0.0",
+  "description": "This project is gonna be an album that uses grid and redirect u to a page of which you can CRUD comments about the artist (It's some info on the page about him). Promises to retrieve images, and MPA as you click on an image at the homepage. No libraries used (only use if the server is done and want to know how to use an API).",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
